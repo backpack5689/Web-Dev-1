@@ -1,0 +1,57 @@
+body
+{
+	background-color: #e6e6fa;
+	color: #191970;
+	font-family: Arial, Veranda, sans-serif;
+}
+h1
+{
+	background-color: #191970;
+	color: #e6e6fa;
+	line-height: 200%;
+	font-family: Georgia, "Times New Roman', serif;
+	text-indent: 1em;
+	text-shadow: 3px 3px 5px #CCCCCC;
+}
+h2
+{
+	background-color: #aeaed4;
+	color: #191970;
+	font-family: Georgia; "Times New Roman", serif;
+	text-align: center;
+}
+nav
+{
+	font-weight: bold;
+	font-size: 1.25 em;
+	word-spacing: 1em;
+}
+p
+{
+	font-size: .90em;
+	text-indent: 3em;
+}
+ul
+{
+	font-weight: bold;
+}
+.feature
+{
+	color: #C70000;
+}
+nav a 
+{
+	text-decoration: none;
+}
+footer
+{
+	color: #333333;
+	font-size: .75em;
+	font-style: italic;
+}
+.company
+{
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+}

@@ -1,0 +1,38 @@
+footer
+{
+	background-color: #42cef4;
+	font-family: Arial;
+	color: #011472;
+	padding: 10px;
+	border-style: dashed;
+	border-color: #011472;
+	border-width: thin;
+}
+#notice
+{
+	width: 80%;
+	background-position: centered;
+
+}
+.headline
+{
+	border-bottom-style: dotted;
+	border-color: #00def7;
+	color: #00def7;
+}
+h1
+{
+	font-size: 4em;
+	font-family: Sans-serif;
+	opacity: 0.5;
+	text-shadow: 2px 2px;
+}
+#section
+{
+	font-size: small;
+	color: red;
+	font-family: Arial;
+	background-color: white;
+	width: 80%;
+	text-shadow: 4px 4px 5px;
+}
