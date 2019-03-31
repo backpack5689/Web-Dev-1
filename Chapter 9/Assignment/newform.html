@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<head>
+<title>Questionaire</title>
+<style>
+	Body
+	{
+		font-family: Arial, sans;
+		background-color: #fafafa;
+	}
+	label,legend
+	{
+		font-family: Arial, sans;
+		font-weight: bold;
+	}
+	form
+	{
+		background-color: #e3e3e3;
+	}
+</style>
+</head>
+<body>
+	<h1>Questionaire Form</h1>
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+		<label>Username: </label><input type="text" name="user" id="userName" required="required" maxlength="30"><br><br>
+		<label>Password: </label><input type="password" name="pword" id="pword" required="required" minlength="6"><br><br>
+		<fieldset><legend>Questionaire</legend>
+			<label>Select your favorite day of the week:</label><br>
+				<input type="radio" name="favday" id="favSun" value="Sunday">Sunday<br>
+				<input type="radio" name="favday" id="favMon" value="Monday">Monday<br>
+				<input type="radio" name="favday" id="favTue" value="Tuesday">Tuesday<br>
+				<input type="radio" name="favday" id="favWed" value="Wednsday">Wednsday<br>
+				<input type="radio" name="favday" id="favThur" value="Thursday">Thursday<br>
+				<input type="radio" name="favday" id="favFri" value="Friday">Friday<br>
+				<input type="radio" name="favday" id="favSat" value="Saturday">Saturday<br>
+			<br>
+			<label>Select your favorite social networking site:</label>
+				<select size="1" name="favNetworkingSite" id="favNetworkingSite">
+					<option>Not Listed</option>
+					<option>Facebook</option>
+					<option>Twitter</option>
+					<option>Snapchat</option>
+					<option>Instagram</option>
+					<option>Linkdin</option>
+					<option>GitHub</option>
+					<option>TikTok</option>
+				</select>
+		</fieldset>
+		<fieldset><legend>Shipping Address</legend>
+			<label>Address Line 1: </label><input type="text" name="user" id="userName" required="required" maxlength="99"><br><br>
+			<label>Address Line 2: </label><input type="text" name="AdLine2" id="AdLine2" maxlength="99"><br><br>
+			<label>City: </label><input type="text" name="City" id="AdCity" maxlength="58" required="required">
+			<label>  State: </label><input type="text" name="State" id="AdState" maxlength="2" placeholder="TN" required="required">
+			<label>  Zip: </label><input type="text" name="Zip" id="AdZip" maxlength="10" placeholder="12345-1234" required="required">
+		</fieldset>
+		<input type="hidden" name="userid">
+		<input id="mySubmit" type="image" src="SubmitButton.gif" value="Submit"><input id="Reset" src="ResetButton.gif" type="image" value="Clear">
+	</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<title>Music Survey</title>
+<style>
+	Body,Footer
+	{
+		font-family: Arial, sans;
+		background-color: #fafafa;
+	}
+	label,legend
+	{
+		font-family: Arial, sans;
+		font-weight: bold;
+	}
+	form
+	{
+		padding-left: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 20px;
+		background-color: #e3e3e3;
+	}
+</style>
+</head>
+<body>
+	<h1>Music Survey</h1>
+	<form>
+		<label>Name: </label><input type="text" name="name" id="Name" required="required" maxlength="99"><br><br>
+		<label>Email: </label><input type="e-mail" name="email" id="email" required="required" minlength="7"><br><br>
+		<fieldset><legend>Select Your Favorite Type of Music:</legend>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Pop<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Rock<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Country<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Smooth Jazz<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Ochestral<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Soundtrack<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Indie<br>
+			<input type="radio" name="musicType" id="musicType" value="Pop">Lofi hip hop beats to study/chill to<br>
+		</fieldset>
+		<fieldset><legend>Select how often you purchase Music CDs:</legend>
+			<select size="3" name="timeMusic" id="timeMusic">
+				<option value="At Home">1 per day</option>
+				<option value="At Home">1 per month</option>
+				<option value="At Home">1 per year</option>
+				<option value="At Home">never</option>
+			</select>
+		</fieldset>
+		<fieldset><legend>When did you first get into music?</legend>
+			<input type="date" name="myDate" id="myDate">
+		</fieldset>
+		<label>Is there anything that you would like to see added to this survey?</label><br>
+		<textarea name="comments" id="comments" rows="3" cols="60"></textarea><br><br>
+		<input type="submit" value="submit"><input type="Reset" value="Reset">
+	</form>
+</body>
+<footer>
+<small><i>Aaron Thompson, aaron.thompson1889@outlook.com</i></small>
+</html>

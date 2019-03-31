@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+<title>Contact Form</title>
+<style>
+	form
+	{
+		padding: 10px;
+		margin-bottom: 10px;
+		background-color: #cfcfcf;
+		min-width: 400px;
+	}
+	label
+	{
+		width: 150 px;
+		font-family: Arial, sans-serif;
+	}
+	#mySubmit
+	{
+		margin-left: 160px;
+	}
+</style>
+</head>
+<body>
+	<h1>Contact Form</h1>
+	<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+		<label>*Name: <input type="text" name="name" id="name" required = "required" placeholder = "first and last name"><br><br></label>
+		<label>*E-mail: <input type="email" name="email" id="email" required = "required" placeholder = "you@yourdomain.com"><br><br></label>
+		<label for="myRating">Rating (1-10):</lable> <input type="range" name="myRating" id="myRating" min="1" max="10"><br><br>
+		<label for="myComments">*Comments: </label><br> <textarea name="myComments" id="myComments" rows="2" cols="20" required="required"></textarea><br><br>
+		<input id="mySubmit" type="submit" value="Contact">
+	</form>
+</body>
+</html>
