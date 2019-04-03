@@ -18,6 +18,15 @@ form
 	background-color: #efefef;
 	min-width: 400px;
 }
+nav
+{
+	background-color: black;
+	text-align: Center;
+}
+#mainpgh
+{
+	text-align:center;
+}
 a:link, a:visited
 {
 	background-color: white;
