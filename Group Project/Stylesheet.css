@@ -1,12 +1,22 @@
-
 body
 {
 	background-color: #fefefe;
-	
 }
 h1,h2,h3,h4,p
 {
 	font-family: Arial;
+}
+label
+{
+	font-weight: bold;
+	font-family: Arial;
+}
+form
+{
+	padding: 20px;
+	margin-bottom: 10px;
+	background-color: #efefef;
+	min-width: 400px;
 }
 a:link, a:visited
 {
@@ -20,5 +30,11 @@ a:link, a:visited
 }
 a:hover, a:active
 {
-	
+	background-color: white;
+	color: #2E3192;
+	border: 2px solid black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
