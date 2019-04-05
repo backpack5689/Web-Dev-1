@@ -32,7 +32,7 @@ nav
 {
 	float: left;
 	width: 50%;
-	padding: 10 px;
+	padding: 15 px;
 }
 a:link, a:visited
 {
@@ -80,7 +80,7 @@ a:hover, a:active
   width:100px;
   height:100px
 }
-#nav { position: fixed; top: 20px; left:400px; 
+#nav { position: absolute; top: 20px; left:400px; 
 
 letter-spacing:0em;
 font-weight: bold;
@@ -92,7 +92,7 @@ padding: 0;
 
 #nav a { text-decoration: none; 
 display: inline; 
-padding: 20px; background-color: #050000;border-left: 1px solid #ffffff;
+padding: 20px; background-color: black; border-left: 1px solid #ffffff;
 background-repeat: no-repeat;}
 
 #nav a:link { color: #ffffff; 
